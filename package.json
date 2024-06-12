@@ -1,0 +1,30 @@
+{
+  "name": "narrative-engine-discord",
+  "version": "1.0.0",
+  "description": "a discord bot for accessing narrative engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/nextjs": "^4.29.11",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@supabase/supabase-js": "^2.39.8",
+    "ai": "^3.0.16",
+    "axios": "^1.6.8",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.30.2",
+    "langchain": "^0.1.30",
+    "openai": "^4.31.0",
+    "openai-edge": "^1.2.2",
+    "pg": "^8.11.3",
+    "pgvector": "^0.1.8",
+    "postgres": "^3.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
